@@ -15,12 +15,17 @@ This project is a C++ application that simulates a WhatsApp-like contact managem
 - `SinglyList.h`: Defines a singly linked list for managing contacts.
 - `stack.h`: Provides a stack for managing recent chats.
 
-## Getting Started
+## How to Run
 
-### Compilation
-To compile the code, use the following command:
-```bash
-g++ whatsapp_list.cpp -o whatsapp_list
+1. **Compile the Code**:
+   ```bash
+   gcc -o sorting_project project.c process.c thread.c -lpthread
+   ```
+
+2. **Run the Program**:
+   ```bash
+   ./sorting_project
+   ```
 
 ###  Usage
 - **Create Account:** Enter your desired username and phone number to register a new account.
